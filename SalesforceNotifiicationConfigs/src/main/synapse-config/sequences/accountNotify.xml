@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="accountNotify" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property expression="json-eval($)" name="LOG.1"/>
+    </log>
+    <drop/>
+</sequence>
