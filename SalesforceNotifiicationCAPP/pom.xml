@@ -9,8 +9,24 @@
   <name>SalesforceNotifiicationCAPP</name>
   <description>SalesforceNotifiicationCAPP</description>
   <properties>
+    <com.mitra.inbound-endpoint_._SalesforceAccountsInboundEndpoint>capp/EnterpriseServiceBus</com.mitra.inbound-endpoint_._SalesforceAccountsInboundEndpoint>
+    <com.mitra.sequence_._accountNotify>capp/EnterpriseServiceBus</com.mitra.sequence_._accountNotify>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
   </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.mitra.sequence</groupId>
+      <artifactId>accountNotify</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.mitra.inbound-endpoint</groupId>
+      <artifactId>SalesforceAccountsInboundEndpoint</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+  </dependencies>
   <repositories>
     <repository>
       <releases>

@@ -2,4 +2,7 @@
     <artifact name="SalesforceAccountsInboundEndpoint" groupId="com.mitra.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/inbound-endpoints/SalesforceAccountsInboundEndpoint.xml</file>
     </artifact>
+    <artifact name="accountNotify" groupId="com.mitra.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/accountNotify.xml</file>
+    </artifact>
 </artifacts>
