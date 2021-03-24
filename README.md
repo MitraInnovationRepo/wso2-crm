@@ -1,7 +1,7 @@
 # Prerequisitis
 - WSO2 EI 6.2.0
 - Salesforce Dev Account
-- Read the links in resouces section
+- Read the links in Resources section
 
 # Steps
 - Download and deploy the sales force connector from https://store.wso2.com/store/assets/esbconnector/details/43e44763-0d73-4ab3-8ae9-d6f73532d164
@@ -13,3 +13,4 @@
 # Resources
 - https://ei.docs.wso2.com/en/latest/micro-integrator/references/connectors/salesforce-connectors/sf-inbound-endpoint-example/
 - https://ei.docs.wso2.com/en/latest/micro-integrator/references/connectors/salesforce-connectors/sf-inbound-endpoint-configuration/
+- https://ei.docs.wso2.com/en/latest/micro-integrator/references/connectors/salesforce-connectors/sf-rest-connector-example/
